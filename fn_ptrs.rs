@@ -1,7 +1,7 @@
 fn main(){
   
   let f: fn(u32) -> u32 = fib;
-  // f is a function that returns an unsigned int given two unsigned ints
+  // f is a function that returns an unsigned int given an unsigned ints
   // -> f is a function pointer
   
   for x in 0 .. 10 {
